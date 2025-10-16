@@ -12,4 +12,4 @@ jobs:
       - name: Compile Java
         run: javac HelloWorld.java
       - name: Run Java
-        run: java HelloWorld | tee output.log
+        run: java HelloWorld 
