@@ -14,12 +14,6 @@ jobs:
 
       - name: Print message
         run: echo "Hello World GA testing"
-  run-pytest:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Print message
-        run: echo "Hello world of testing"
-
   run_pytest:
     runs-on: ubuntu-latest
     steps:
